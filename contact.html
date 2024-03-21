@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header class="header">
+    <nav>
+      <ul class="sidebar A">
+
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul>
+        <!-- <li><a href="#">Computer Reparing</a></li> -->
+        <li><a href="#"><img class="img01 Aimg" src="/com/Screenshot 2024-03-19 151524.png" height="200px" alt=""></a>
+        </li>
+        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="#"> Services</a></li>
+        <li class="hideOnMobile"><a href="#">Team</a></li>
+        <li class="hideOnMobile"><a href="#">Contact</a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  </head>
+
+  <body ng-app="">
+
+    <div class="box1">
+      <div class="logo">
+        <img
+          src="com/png-clipart-laptop-computer-virus-computer-repair-technician-antivirus-software-laptop-computer-network-electronics-thumbnail-removebg-preview.png">
+      </div>
+      <div class="text">
+        <h1>Contact <span class="red">Us</span></h1>
+        <hr class="redline">
+        <p>There is nothing better than working with good people.</p>
+      </div>
+    </div>
+
+
+
+    <div class="cookieCard">
+      <h2 class="cookieHeading">We're here</h2>
+      <div class="ABC">
+        <h5>Didn't find what you are looking for? Get in touch with us. We're available from Mon - Sat 10:30 AM - 6:30
+          PM.</h5>
+        <div class="ABC1">
+          <h5>NOTE :</h5>
+          <h5>1. This is only authorised number (9168280680), we use to communicate with our customer.</h5>
+          <h5>2. We do not ask or request any advance payment for our services or products.</h5>
+
+        </div>
+
+      </div>
+
+      <!-- <h3  class="AB" >Didn't find what you are looking for? Get in touch with us. We're available from Mon - Sat 10:30 AM - 6:30 PM.</h3> -->
+      <!-- <p class="cookieHeading">We're here</p> -->
+
+      <!-- <button class="acceptButton">Understood</button> -->
+
+
+    </div>
+
+    <div class="png">
+      <img
+        src="/images/png-clipart-laptop-computer-cases-housings-gaming-computer-desktop-computers-laptop-game-computer-network-thumbnail-removebg-preview.png"
+        alt="">
+    </div>
+
+
+
+
+
+
+
+
+    <div class="touch">
+      <h2>Get in touch</h2>
+      <hr class="redline">
+    </div>
+
+    <form action="" method="POST" name="contact-form">
+      <div class="container form-margin">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="First Name" ng-model="firstname" name="firstname"
+                required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Company Name" ng-model="company" name="company"
+                required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone" ng-model="phone" name="firstname" required>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Last Name" ng-model="lastname" name="lastname"
+                required>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="E-mail" ng-model="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Course" ng-model="course" name="course" required>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="form-group">
+              <textarea class="form-control" rows="6" placeholder="Message" ng-model="message" name="message"
+                required></textarea>
+            </div>
+            <div class="pager">
+              <button type="submit" class="btn btn-success">SEND MESSAGE</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2"></div>
+
+      </div>
+    </form>
+    <!--address-->
+
+    <div class="container address">
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <h3>Our Address</h3>
+        <div class="redline-address"></div>
+        <p>34#1, 13th Cross Roads</p>
+        <p>NGR Layout</p>
+        <p>Bommanahalli,</p>
+        <p>Bangalore - 560068</p>
+        <div class="phone-e">
+          <p><span class="glyphicon glyphicon-envelope"> </span> info@trainingmug.com</p>
+          <p><span class="glyphicon glyphicon-phone"></span> +91-97427 66186</p>
+        </div>
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+        <!--map-->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.019213593812!2d77.62060731482127!3d12.906485990898592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14eed2a26dbb%3A0x98f64960052a26b0!2sTrainingMug!5e0!3m2!1sen!2sin!4v1504259922701"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+      </div>
+      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+    </div>
+
+    <div class="bottom-gap"></div>
+
+
+
+
+
+
+
+    <section class="footer">
+
+      <div class="box-container">
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a class="link" href="#home"> <i class="fas fa-angle-right"></i> home</a>
+          <a class="link" href="#about"> <i class="fas fa-angle-right"></i> about</a>
+          <a class="link" href="#services"> <i class="fas fa-angle-right"></i> services</a>
+          <a class="link" href="#gallery"> <i class="fas fa-angle-right"></i> gallery</a>
+          <a class="link" href="#team"> <i class="fas fa-angle-right"></i> team</a>
+          <a class="link" href="#reviews"> <i class="fas fa-angle-right"></i> reviews</a>
+          <a class="link" href="#contact"> <i class="fas fa-angle-right"></i> contact</a>
+        </div>
+
+        <div class="box">
+          <h3>opening hours</h3>
+          <p> <span>monday :</span> 10:00am to 00:09pm </p>
+          <p> <span>tuesday :</span> 10:00am to 00:09pm </p>
+          <p> <span>wednesday :</span> 10:00am to 00:09pm </p>
+          <p> <span>thursday :</span> 10:00am to 00:09pm </p>
+          <p> <span>friday :</span> 10:00am to 00:09pm </p>
+          <p> <span>saturday :</span> 10:00am to 00:09pm </p>
+          <p> <span>sunday :</span> closed </p>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="link"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+          <a href="#" class="link"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+          <a href="#" class="link"> <i class="fas fa-envelope"></i> abhishekkumar1@gmail.com </a>
+          <a href="#" class="link"> <i class="fas fa-map"></i> mumbai, india - 400104 </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <form action="">
+            <input type="email" name="" placeholder="enter your email" id="" class="email">
+            <input type="submit" value="subscribe" class="btn">
+          </form>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="credit">Copyright<span>© computer repair 2018 </span> | all rights reserved! </div>
+
+    </section>
+
+
+  </body>
+
+</html>
