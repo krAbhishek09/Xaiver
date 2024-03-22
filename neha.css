@@ -13,22 +13,22 @@ ul {
 }
 
 .cont-info>a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .cont-info>a:hover {
-    color: #0dc72c;
+    color: #0d6efd;
 
 }
 
 .nav-link:hover {
-    color: #0dc72c;
+    color: #0d6efd;
 }
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-    color: #0dc72c !important;
+    color: #0d6efd !important;
 }
 
 .logo {
@@ -36,7 +36,7 @@ ul {
 }
 
 .navbar-nav>.list>.nav-item>a:hover {
-    color: #0dc72c !important;
+    color: #0d6efd !important;
 }
 
 .toggle {
@@ -58,13 +58,14 @@ ul {
     }
 
     .navbar-nav>.list>.nav-item>a:hover {
-        color: #0dc72c !important;
+        color:#0d6efd !important;
     }
 
 }
 
 .navbar {
-    background-color: rgb(34 58 142) !important;
+    background-color: silver !important;
+    box-shadow: 0px 2px 19px 6px grey;
 }
 
 .navbar-toggler {
@@ -82,9 +83,7 @@ ul {
         width: 91px;
 }
 
-.navbar {
-    background-color: rgb(34 58 142) !important;
-}
+
 
 /* =========================================nav section end===================== */
 
@@ -109,11 +108,11 @@ ul {
 }
 
 .banner .active {
-    color: rgb(54, 234, 75);
+    color:#0d6efd;;
 }
 
 .banner .home:hover {
-    color: rgb(9, 171, 28);
+    color: #0d6efd;;
 }
 
 
@@ -137,11 +136,11 @@ ul {
 }
 
 .banner .active {
-    color: rgb(54, 234, 75);
+    color: #0d6efd;
 }
 
 .banner .home:hover {
-    color: rgb(9, 171, 28);
+    color:#0d6efd;
 }
 
 
@@ -489,7 +488,7 @@ ul {
 /* ==============================footer start========================================== */
 
 .footer {
-    background-color: rgb(34 58 142) !important;
+    background-color: silver !important;
 }
 
 
@@ -504,14 +503,12 @@ ul {
 .footer .box-container .box h3 {
     font-size: 2.2rem;
     text-transform: capitalize;
-    color: #fff;
+    color:black;
     padding: 1rem 0;
 }
-
 .footer .box-container .box .link {
     display: block;
-
-    color: #fff;
+    color: #030303;
 }
 
 .footer .box-container .box .link i {
@@ -530,7 +527,7 @@ ul {
 
 .footer .box-container .box p {
 
-    color: #fff;
+    color: black;
 }
 
 .footer .box-container .box p span {
